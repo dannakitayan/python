@@ -86,7 +86,8 @@ def is_year_leap(year_):
     except ValueError:
         return False
 
-#Write the function "season" that takes 1 argument - a number of the month (from 1 to 12), and returns the season to which this month belongs (winter, spring, summer, or autumn).
+#Write the function "season" that takes 1 argument - a number of the month (from 1 to 12), and returns the season 
+#to which this month belongs (winter, spring, summer, or autumn).
 def season(month):
     if (month < 3 or month == 12):
         return "Winter"
@@ -126,7 +127,8 @@ def bank(deposit, years):
         deposit += (deposit/100)*10
     return f"Your bank account total: {deposit}$"
 
-#Write the function "square" that takes 1 argument - 'length' of the square side. Return (a tuple) the perimeter of the square, the area of the square, and the diagonal of the square.
+#Write the function "square" that takes 1 argument - 'length' of the square side. Return (a tuple) the perimeter of the square, 
+#the area of the square, and the diagonal of the square.
 def square(length):
     S = length**2
     P = 4*length
